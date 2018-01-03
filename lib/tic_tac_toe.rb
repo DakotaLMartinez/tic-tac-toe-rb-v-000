@@ -38,8 +38,9 @@ def turn(board)
   puts "Please enter a number between 1-9" 
   input = gets.strip
   index = input_to_index(input)
-  binding.pry
+  
   if valid_move?(board, index)
+    binding.pry
     move(board, index, token)
 end
 
