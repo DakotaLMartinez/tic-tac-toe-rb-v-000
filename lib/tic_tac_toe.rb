@@ -41,6 +41,7 @@ def turn(board)
   
   if valid_move?(board, index)
     token = current_player
+    binding.pry
     move(board, index, token)
   end
 end
