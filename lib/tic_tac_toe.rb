@@ -42,6 +42,7 @@ def turn(board)
   if valid_move?(board, index)
     binding.pry
     move(board, index, token)
+  end
 end
 
 def turn_count(board)
