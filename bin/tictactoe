@@ -4,3 +4,5 @@ require_relative '../lib/tic_tac_toe'
 
 board = [" "," "," "," ","X"," "," "," "," "]
 display_board(board)
+
+play(board)
