@@ -83,3 +83,7 @@ def over?(board)
   won?(board) || draw?(board)
 end
 
+def winner(board) 
+  won?(board) && board[won?(board)[0]] #"X"
+end
+
