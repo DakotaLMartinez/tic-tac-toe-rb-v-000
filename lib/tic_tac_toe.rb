@@ -23,6 +23,7 @@ def input_to_index(input)
 end
 
 def move(board, index, token)
+  binding.pry
   board[index] = token
 end
 
@@ -40,8 +41,8 @@ def turn(board)
   index = input_to_index(input)
   
   if valid_move?(board, index)
-    binding.pry
-    move(board, index, current_player)
+    token = current_player
+    move(board, index, token)
   end
 end
 
