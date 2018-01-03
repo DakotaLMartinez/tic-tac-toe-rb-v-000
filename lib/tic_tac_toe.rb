@@ -93,7 +93,7 @@ def play(board)
   end
   
   if won?(board)
-    
+    puts "Congratulations #{current_player(board)}!"
   else 
     
   end
